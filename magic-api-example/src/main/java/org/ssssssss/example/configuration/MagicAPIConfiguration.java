@@ -5,9 +5,7 @@ import org.springframework.context.annotation.Configuration;
 import org.ssssssss.example.interceptor.CustomRequestInterceptor;
 import org.ssssssss.example.interceptor.CustomUIAuthorizationInterceptor;
 import org.ssssssss.example.provider.*;
-import org.ssssssss.example.scripts.CustomFunction;
-import org.ssssssss.example.scripts.CustomFunctionExtension;
-import org.ssssssss.example.scripts.CustomModule;
+import org.ssssssss.example.scripts.*;
 import org.ssssssss.magicapi.datasource.model.MagicDynamicDataSource;
 import org.ssssssss.magicapi.modules.db.provider.PageProvider;
 
@@ -97,6 +95,22 @@ public class MagicAPIConfiguration {
 	// @Bean
 	public CustomModule customModule() {
 		return new CustomModule();
+	}
+
+	/**
+	 * 自定义模块
+	 */
+	// @Bean
+	public FileModule fileModule() {
+		return new FileModule();
+	}
+
+	/**
+	 * 自定义模块
+	 */
+	// @Bean
+	public JMModule jmModule() {
+		return new JMModule();
 	}
 
 	/**

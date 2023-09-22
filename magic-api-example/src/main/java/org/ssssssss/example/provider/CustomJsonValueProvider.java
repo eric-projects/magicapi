@@ -1,5 +1,6 @@
 package org.ssssssss.example.provider;
 
+import org.springframework.stereotype.Component;
 import org.ssssssss.magicapi.core.config.JsonCodeConstants;
 import org.ssssssss.magicapi.core.context.RequestEntity;
 import org.ssssssss.magicapi.core.interceptor.ResultProvider;
@@ -11,6 +12,7 @@ import org.ssssssss.magicapi.core.model.JsonBean;
  * @see org.ssssssss.magicapi.core.interceptor.ResultProvider
  * @see org.ssssssss.magicapi.core.interceptor.DefaultResultProvider
  */
+@Component
 public class CustomJsonValueProvider implements ResultProvider {
 
 
@@ -34,5 +36,10 @@ public class CustomJsonValueProvider implements ResultProvider {
 			return new JsonBean<>(200, message, data);
 		}
 		return new JsonBean<>(code, message, data);
+	}
+
+	@Override
+	public Object buildException(RequestEntity requestEntity, Throwable throwable) {
+		return buildResult(requestEntity, 500, throwable.getMessage());
 	}
 }
