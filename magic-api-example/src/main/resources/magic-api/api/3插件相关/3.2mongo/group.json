@@ -1,0 +1,14 @@
+{
+  "properties" : { },
+  "id" : "d391dd696805419da4579cd1bb9ca91c",
+  "name" : "3.2mongo",
+  "type" : "api",
+  "parentId" : "d822ca3576384065b85973a3f220397b",
+  "path" : "/mongo",
+  "createTime" : 1679917626642,
+  "updateTime" : null,
+  "createBy" : null,
+  "updateBy" : null,
+  "paths" : [ ],
+  "options" : [ ]
+}

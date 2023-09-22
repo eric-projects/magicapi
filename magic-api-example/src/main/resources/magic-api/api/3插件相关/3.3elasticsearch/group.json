@@ -1,0 +1,14 @@
+{
+  "properties" : { },
+  "id" : "291aacfedb384da8abb382699ace50c5",
+  "name" : "3.3elasticsearch",
+  "type" : "api",
+  "parentId" : "d822ca3576384065b85973a3f220397b",
+  "path" : "/elasticsearch",
+  "createTime" : 1679917650000,
+  "updateTime" : null,
+  "createBy" : null,
+  "updateBy" : null,
+  "paths" : [ ],
+  "options" : [ ]
+}

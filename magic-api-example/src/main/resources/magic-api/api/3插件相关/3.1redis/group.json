@@ -1,0 +1,14 @@
+{
+  "properties" : { },
+  "id" : "399ff54c79b646efaf035b245aa7d8a3",
+  "name" : "3.1redis",
+  "type" : "api",
+  "parentId" : "d822ca3576384065b85973a3f220397b",
+  "path" : "/redis",
+  "createTime" : 1679917618704,
+  "updateTime" : null,
+  "createBy" : null,
+  "updateBy" : null,
+  "paths" : [ ],
+  "options" : [ ]
+}

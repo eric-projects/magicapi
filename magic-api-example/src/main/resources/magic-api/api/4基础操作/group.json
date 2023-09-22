@@ -1,0 +1,14 @@
+{
+  "properties" : { },
+  "id" : "1d16f0f2327142e1a1ca0a1e773b1f70",
+  "name" : "4基础操作",
+  "type" : "api",
+  "parentId" : "0",
+  "path" : "/base",
+  "createTime" : 1679918020603,
+  "updateTime" : null,
+  "createBy" : null,
+  "updateBy" : null,
+  "paths" : [ ],
+  "options" : [ ]
+}
